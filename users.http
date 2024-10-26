@@ -1,0 +1,25 @@
+GET http://localhost:8000/api/users/list
+Content-Type: application/json
+
+###
+POST http://localhost:8000/api/users/save
+Content-Type: application/json
+
+{
+    "name": "oreo",
+    "lastname": "ramos",
+    "age": 25
+}
+###
+PUT http://localhost:8000/api/users/update/1
+Content-Type: application/json
+
+{
+    "name": "Juan",
+    "lastname": "Perez",
+    "age": 36
+}
+###
+DELETE  http://localhost:8000/api/users/delete/5
+Content-Type: application/json
+

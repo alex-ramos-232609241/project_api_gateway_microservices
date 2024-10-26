@@ -1,0 +1,24 @@
+GET http://localhost:8000/api/products/list
+Content-Type: application/json
+
+###
+POST http://localhost:8000/api/products/save
+Content-Type: application/json
+
+{
+    "product": "hygy",
+    "code": "PB0003",
+    "coste": "100"
+  }
+###
+PUT http://localhost:8000/api/products/update/2
+Content-Type: application/json
+
+{
+    "product": "mouse Lenovo",
+    "code": "PB0003",
+    "coste": "100"
+  }
+###
+DELETE  http://localhost:8000/api/products/delete/3
+Content-Type: application/json
