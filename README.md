@@ -30,7 +30,7 @@ El Gateway expone las siguientes rutas para interactuar con los microservicios:
 
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/api-gateway.git
+   git clone https://github.com/alex-ramos-232609241/project_api_gateway_microservices.git
    ```
    
 2. Crea un entorno virtual y actívalo:
